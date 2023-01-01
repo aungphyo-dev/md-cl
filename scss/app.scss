@@ -35,6 +35,15 @@ $container-max-widths: (
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
 }
+.article-paragraph p {
+  line-height: 30px;
+}
+.f-16 {
+  font-size: 16px;
+}
+.f-14 {
+  font-size: 14px;
+}
 .tag-font {
   font-size: 42px;
 }
@@ -47,14 +56,20 @@ $container-max-widths: (
 .btn-font {
   font-size: 13px;
 }
+.detail-tilte-font {
+  font-size: 32px;
+}
 @media (max-width: 768px) {
   .font-1 {
-    font-size: 12px;
-  }
-  .font-2 {
     font-size: 14px;
   }
+  .font-2 {
+    font-size: 16px;
+  }
   .tag-font {
+    font-size: 22px;
+  }
+  .detail-tilte-font {
     font-size: 22px;
   }
 }
